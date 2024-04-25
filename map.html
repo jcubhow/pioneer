@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Jacob Howard, Nathan Baird, Ivan Laguna">
+  <meta name="generator" content="Hugo 0.72.0">
+  <title>Purdue Pioneer Homepage</title>
+
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"
+    integrity="sha384-Luc1EKr2WdR+7b7RM6J60rUcJp+Cp6KVOxUVSnJgg6wcNJ5uvtjvb3aLuPxTtnPI" crossorigin="anonymous"></script>
+
+  <style>
+    .navbar-custom {
+      background-color: #B08B00 !important; /* This is akin to $yellow-700 */
+    }
+
+    .btn-primary {
+      background-color: #654321; /* Light brown color */
+      border-color: #654321; /* Matching border color */
+    }
+
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active {
+      background-color: #8B4513; /* Darker shade for hover, focus, active states */
+      border-color: #8B4513;
+    }
+
+    .navbar-brand img {
+      height: 25px; /* Adjust the logo size by changing the height here */
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Pioneer</a>
+            <img src="https://i.postimg.cc/3w1BzyzY/logo.png" alt="Purdue Pioneer Logo" style="height: 50px; vertical-align: middle; margin-right: 10px;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSections" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Landmarks
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownSections">
+                    <a class="dropdown-item" href="fountain.html">Fountain</a>
+                    <a class="dropdown-item" href="hall.html">Hall</a>
+                    <a class="dropdown-item" href="stadium.html">Stadium</a>
+                    <a class="dropdown-item" href="slayter.html">Slayter</a>
+                    <a class="dropdown-item" href="union.html">Union</a>
+                    <a class="dropdown-item" href="tower.html">Tower</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">Map</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+  <main>
+    <div class="container marketing mt-5 pt-5">
+      <!-- Featurette header with background image and dimmed overlay -->
+      <div class="bg-image text-white d-flex flex-column justify-content-center align-items-center" style="background: url('https://i.pinimg.com/736x/0b/6c/44/0b6c44d5c2e2b863489f546e63f698f7.jpg') no-repeat center center; background-size: cover; height: 1640px; width: 1250px">
+        <h1 class="featurette-heading"></h1>
+      </div>
+
+      <!-- Additional Information Section -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Academic and Administrative Buildings</h2>
+          <p class="lead">AACC: Asian American and Asian Resource and Cultural Center (F6)
+            AACC: Asian American and Asian Resource and Cultural Center (F6)<br>
+ABE: Agricultural and Biological Engineering (F9)<br>
+ADDL: Animal Disease Diagnostic Laboratory (G10)<br>
+ADM: ADM Agricultural Innovation Center (E11)<br>
+Admissions Office: (Stewart Center 102) (H7)<br>
+AGAD: Agricultural Administration Building (G8)<br>
+AR: Armory (F6)<br>
+ARMS: Armstrong (Neil) Hall of Engineering (G5)<br>
+ASB: Airport Service Building (Shop Services) (A11-12)<br>
+BALY: Bailey (Ralph and Bettye) Hall (H6-7)<br>
+BCHM: Biochemistry Building (F8)<br>
+BHEE: Brown (Max W & Maileen) Family Hall (H6)<br>
+BRNG: Beering (Steven C.) Hall of Liberal Arts and Education (G7)<br>
+BRWN: Brown (Herbert C.) Laboratory of Chemistry (H7)<br>
+CHAS: Chaney-Hale Hall of Science (G6)<br>
+CL50: Class of 1950 Lecture Hall (G7)<br>
+DSCB: Data Science (G6)<br>
+ECEC: Purdue University Early Care and Education Center (A7)<br>
+ELLT: Elliott (Edward C.) Hall of Music (G6)<br>
+FORS: Forestry Building (G8)<br>
+FRNY: Forney Hall of Chemical Engineering (G5)<br>
+GRIS: Grissom Hall (H7)<br>
+HAMP: Hampton (Delon and Elizabeth) Hall of Civil Engineering (G5)<br>
+HEAV: Heavilon Hall (H7)<br>
+HIKS: Hicks (John W.) Undergraduate Library (H8)<br>
+HORT: Horticulture Building (G9)<br>
+HOVD: Hovde (Frederick L.) Hall of Administration (G6)<br>
+JNSN: Johnson (Helen R.) Hall of Nursing (G6)<br>
+KNOY: Knoy (Maurice G.) Hall of Technology (H6)<br>
+KRAN: Krannert Building (H8)<br>
+LAMB: Lambert (Ward L.) Fieldhouse and Gymnasium (G4)<br>
+LILY: Lilly Hall of Life Sciences (F8)<br>
+MATH: Mathematical Sciences Building (G7)<br>
+ME: Mechanical Engineering Building (H6)<br>
+PHYS: Physics Building (G5)<br>
+POTR: Potter (A.A.) Engineering Center (H6)<br>
+SC: Stanley Coulter Hall (G7)<br>
+SCHM: Helen B. Schleman Hall (G7)<br>
+STEW: Stewart Center (includes Welcome Center) (H7)<br>
+STON: Stone (Winthrop E.) Hall (G8)<br>
+UNIV: University Hall (G7)<br>
+WTHR: Wetherill (Richard Benbridge) Laboratory of Chemistry (G7)<br>
+YONG: Young (Ernest C.) Hall (H8)<br></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Research and Innovation</h2>
+          <p class="lead">ADPA-C: Aspire at Discovery Park (D8)<br>
+            AERO: Aerospace Science Laboratory (C11)<br>
+            BIDC: Bechtel Innovation Design Center (F6)<br>
+            BIND: Bindley Bioscience Center (D8)<br>
+            BRK: Birck Nanotechnology Center (D8)<br>
+            BOWN: Bowen (Robert L. & Terry L.) Laboratory (H12 Inset)<br>
+            COMP: Composites Laboratory (C11)<br>
+            CONT: Continuum (C8)<br>
+            CONV: Convergence (C8)<br>
+            CREC: Córdova (France A.) Recreational Sports Center (E6)<br>
+            DLR: Hall for Discovery and Learning Research (E9)<br>
+            DRUG: Drug Discovery (F9)<br>
+            FLEX: Flex Laboratories (D9)<br>
+            HANS: Hansen (Arthur G.) Life Sciences Research Building (F9)<br>
+            HOCK: Hockmeyer (Wayne T. and Mary T.) Hall of Structural Biology (E9)<br>
+            MJIS: Jischke (Martin C.) Hall of Biomedical Engineering (E9)<br>
+            MOLL: Mollenkopf Athletic Center (F3)<br>
+            MRGN: Morgan (Burton D.) Center for Entrepreneurship (D8)<br>
+            PMRI: Purdue Magnetic Resonance Imaging Facility (G9)<br>
+            PRCE: Peirce Hall (G7)<br>
+            PSYC: Psychological Sciences Building (G6, 7)<br></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Health and Veterinary Sciences</h2>
+          <p class="lead">AHF: Animal Holding Facility (G10)<br>
+            BREQ: Brunner (David and Bonnie) Equine Hospital (G10)<br>
+            BRFM: Brunner (David and Bonnie) Farm Animal Hospital (H10)<br>
+            BRUN: Brunner (David and Bonnie) Small Animal Hospital (G10)<br>
+            EHSB: Equine Health Sciences Building (G10)<br>
+            EHSA: Equine Health Sciences Annex (G10)<br>
+            LYNN: Lynn (Charles J.) Hall of Veterinary Medicine (G10)<br>
+            VA1: Veterinary Animal Isolation Building 1 (G10)<br>
+            VA2: Veterinary Animal Isolation Building 2 (G10)<br>
+            VCPR: Veterinary Center for Paralysis Research (G10)<br>
+            VLAB: Veterinary Laboratory Animal Building (G10)<br>
+            VMIF: Veterinary Medicine Isolation Facility (G10)<br>
+            VPRB: Veterinary Pathobiology Research Building (F9, 10)<br>
+            VPTH: Veterinary Pathology Building (G9)<br></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Cultural Centers</h2>
+          <p class="lead">AACC: Asian American and Asian Resource and Cultural Center (F6)<br>
+            BCC: Black Cultural Center (F6)<br>
+            LCCP: Latino Cultural Center at Purdue (F6)<br>
+            NACC: Native American Educational and Cultural Center (F6)<br></p>
+        </div>
+      </div>
+      
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Athletic Facilities</h2>
+          <p class="lead">AQUA: Burke (Morgan J.) Boilermaker Aquatic Center (D6)<br>
+            BRES: Brees (Drew and Brittany) Student-Athlete Academic Center (F3)<br>
+            KFPC: Kozuch Football Performance Complex (F3)<br>
+            STDM: Ross-Ade Stadium (includes Ross-Ade Pavilion [RAP]) (F3)<br></p>
+        </div>
+        </div>
+        <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Other Facilities</h2>
+          <p class="lead">AAPF: Ag Alumni Seed Phenotyping Facility (F8)<br>
+            CRTN: Creighton (Hobart and Russell) Hall of Animal Sciences (F9)<br>
+            DMNT: DeMent (Clayton W.) Fire Station (D6)<br>
+            DAUC: Dauch (Dick and Sandy) Alumni Center (H9)<br>
+            FOPN: Flight Operations Building (B11)<br>
+            GCMB: Golf Course Maintenance Barn (C2)<br>
+            GMF: Grounds Maintenance Facility (F11)<br>
+            GMGF: Grounds Maintenance Greenhouse Facilities (E11)<br>
+            HGR4-7: Hangars, Numbers 4 through 7 (A11,12)<br>
+            HGRH: Horticultural Greenhouse (G9)<br>
+            HLAB: Herrick Laboratories (E8)<br>
+            HMMT: Hazardous Materials Management Trailer (H11)<br>
+            LMSB: Laboratory Materials Storage Building (H11)<br>
+            LMST: Laboratory Materials Storage Trailer (H11)<br>
+            LOLC: Land O’Lakes Center for Experiential Learning and Purina Pavilion (F9)<br>
+            MSEE: Materials and Electrical Engineering Building (H5)<br>
+            MMDC: Materials Management and Distribution Center (F11)<br>
+            MMS1: Materials Management Storage Building 1 (F12)<br>
+            PFSB: Physical Facilities Service Building (F12)<br>
+            PGSC: Purdue Graduate Student Center (H5)<br>
+            PRSV: Printing Services Facility (F11)<br>
+            SCHO: Global Policy Research Institute (Schowe House) (F1)<br>
+            SCPA: Slayter Center of Performing Arts (E4)<br>
+            SIML: Holleman-Niswonger Simulator Center (A11)<br>
+            SMLY: Smalley (John C.) Center for Housing and Food Services Administration (D6)<br>
+            SMTH: Smith Hall (F8)<br>
+            SOIL: Soil Erosion Laboratory, National (E9)<br>
+            SPUR: Spurgeon (Tom) Golf Training Center (C1)<br>
+            TEL: Telecommunications Building (F7)<br>
+            TERM: Terminal Building (B11)<br>
+            TERY: Terry (Oliver P.) House (E8, 9)<br>
+            TSWF: Transportation Service Wash Facility (G12)<br>
+            UC: University Church (I7)<br>
+            UPOB: Utility Plant Office Building (H11)<br>
+            UPOF: Utility Plant Office Facility (H10)<br>
+            UPSB: Utility Plant Storage Building (G11)<br>
+            WADE: Wade (Walter W.) Utility Plant (H11)<br></p>
+        </div>
+        </div>
+        </div>
+    </div>
+  </main>
+
+  <footer class="container py-4">
+    <p class="text-center">&copy; 2024 Purdue Pioneer, Inc.</p>
+  </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>

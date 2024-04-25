@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jacob Howard, Nathan Baird, Ivan Laguna">
+    <meta name="generator" content="Hugo 0.72.0">
+    <title>Purdue Pioneer Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .navbar-custom {
+            background-color: #B08B00 !important;
+            /* This is akin to $yellow-700 */
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        /* GLOBAL STYLES */
+        /* Padding below the footer and lighter body text */
+
+        body {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            color: #5a5a5a;
+        }
+
+        /* Accent color */
+        .accent {
+            color: #B08B00;
+        }
+
+        /* Section styling */
+        .section {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+        .section-header {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .subsection {
+            margin-bottom: 2rem;
+        }
+
+        .subsection img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .subsection-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 1.5rem;
+        }
+
+        .subsection-content {
+            margin-top: 1rem;
+        }
+
+        .learn-more-btn {
+            background-color: #B08B00;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .learn-more-btn:hover {
+            background-color: #8a6600;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Pioneer</a>
+            <img src="https://i.postimg.cc/3w1BzyzY/logo.png" alt="Purdue Pioneer Logo" style="height: 50px; vertical-align: middle; margin-right: 10px;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSections" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Landmarks
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownSections">
+                    <a class="dropdown-item" href="fountain.html">Fountain</a>
+                    <a class="dropdown-item" href="hall.html">Hall</a>
+                    <a class="dropdown-item" href="stadium.html">Stadium</a>
+                    <a class="dropdown-item" href="slayter.html">Slayter</a>
+                    <a class="dropdown-item" href="union.html">Union</a>
+                    <a class="dropdown-item" href="tower.html">Tower</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">Map</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <!-- Blog Section -->
+    <main class="container">
+
+        <div class="section" id="research">
+            <div class="section-header">
+                <h2 class="font-italic accent">Research</h2>
+            </div>
+            <!-- Subsections -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="subsection">
+                        <img src="https://www.purdue.edu/uns/images/2024/MatosevicLO.jpg" alt="Research Image" class="img-fluid">
+                        <h3 class="subsection-title accent">Genetically engineering a treatment for incurable brain tumors</h3>
+                        <p class="subsection-content">Purdue University researchers are developing and validating a patent-pending treatment for incurable glioblastoma brain tumors. Glioblastomas are almost always lethal with a median survival time of 14 months. Traditional methods used against other cancers, like chemotherapy and immunotherapy, are often ineffective on glioblastoma.</p>
+                        <a href="https://www.purdue.edu/newsroom/releases/2024/Q2/genetically-engineering-a-treatment-for-incurable-brain-tumors.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subsection">
+                        <img src="https://www.purdue.edu/uns/images/2024/240418ReElementSigning-LO.jpg" alt="Research Image" class="img-fluid">
+                        <h3 class="subsection-title accent">Returning rare earth element production to the United States</h3>
+                        <p class="subsection-content">ReElement Technologies on Thursday (April 18) signed an exclusive license to use patented Purdue University technologies to domestically refine and sell minerals critical in manufacturing modern, high-tech products for commercial and industrial use.</p>
+                        <a href="https://www.purdue.edu/newsroom/releases/2024/Q2/returning-rare-earth-element-production-to-the-united-states.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subsection">
+                        <img src="https://www.purdue.edu/uns/images/2024/Science-iLO.jpg" alt="Research Image" class="img-fluid">
+                        <h3 class="subsection-title accent">Scientists from dozens of countries coming to Purdue for forestry collaboration in Science-i Bridging Worlds Workshop
+                        </h3>
+                        <p class="subsection-content">In the summer of 2023, the skies throughout the Upper Midwest were hidden behind a blanket of smoke. Air quality declined so substantially that people were warned to stay inside, and asthma-related emergency room visits spiked across the country. The gray haze had come all the way from forest fires in Canada.</p>
+                        <a href="https://www.purdue.edu/newsroom/releases/2024/Q2/scientists-from-dozens-of-countries-coming-to-purdue-for-forestry-collaboration-in-science-i-bridging-worlds-workshop.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="innovation">
+            <div class="section-header">
+                <h2 class="font-italic accent">Innovation</h2>
+            </div>
+            <!-- Subsections -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="subsection">
+                        <img src="https://www.purdue.edu/uns/images/2024/summit-chiangyoungLO.jpg" alt="Innovation Image" class="img-fluid">
+                        <h3 class="subsection-title accent">Purdue, industry partners convene second CHIPS summit in D.C. with top international and national leaders</h3>
+                        <p class="subsection-content">More than 330 representatives from industry, government and academia gathered in person and online Wednesday (April 17) in Washington, D.C., as Purdue University and an alliance of industry partners hosted the daylong CHIPS for America: Execute for Global Success summit at the Russell Senate Office Building.</p>
+                        <a href="https://www.purdue.edu/newsroom/releases/2024/Q2/purdue-industry-partners-convene-second-chips-summit-in-d.c-with-top-international-and-national-leaders.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subsection">
+                        <img src="https://www.purdue.edu/uns/images/2024/YoonNanoparticlesLO.jpg" alt="Innovation Image" class="img-fluid">
+                        <h3 class="subsection-title accent">Purdue researchers create biocompatible nanoparticles to enhance systemic delivery of cancer immunotherapy</h3>
+                        <p class="subsection-content">Purdue University researchers are developing and validating patent-pending poly (lactic-co-glycolic acid), or PLGA, nanoparticles modified with adenosine triphosphate, or ATP, to enhance immunotherapy effects against malignant tumors.</p>
+                        <a href="https://www.purdue.edu/newsroom/releases/2024/Q1/purdue-researchers-create-biocompatible-nanoparticles-to-enhance-systemic-delivery-of-cancer-immunotherapy.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subsection">
+                        <img src="https://www.purdue.edu/uns/images/2022/lee-glaucomaLO.jpg" alt="Innovation Image" class="img-fluid">
+                        <h3 class="subsection-title accent">$6.7M in federal grants awarded to develop tech to monitor, treat chronic eye diseases</h3>
+                        <p class="subsection-content">Research teams led by a faculty member in Purdue University’s College of Engineering will use two grants from the National Eye Institute totaling $6.7 million to further develop specialized smart soft contact lenses that continuously monitor or treat chronic ocular diseases like glaucoma, corneal neovascularization and dry eye syndromes.</p>
+                        <a href="https://www.purdue.edu/newsroom/releases/2024/Q1/6.7m-in-federal-grants-awarded-to-develop-tech-to-monitor-treat-chronic-eye-diseases.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="student">
+            <div class="section-header">
+                <h2 class="font-italic accent">Featured</h2>
+            </div>
+            <!-- Subsections -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="subsection">
+                        <img src="https://www.purdue.edu/uns/images/2024/prf-skhynixLO.jpg" alt="Student Image" class="img-fluid">
+                        <h3 class="subsection-title accent">SK hynix announces semiconductor advanced packaging investment in Purdue Research Park</h3>
+                        <p class="subsection-content">SK hynix Inc. announced Wednesday (April 3) that it plans to invest close to $4 billion to build an advanced packaging fabrication and RD facility for AI products in the Purdue Research Park. The development of a critical link in the U.S. semiconductor supply chain in West Lafayette marks a giant leap forward in the industry and the state.</p>
+                        <a href="https://www.purdue.edu/newsroom/releases/2024/Q2/sk-hynix-announces-semiconductor-advanced-packaging-investment-in-purdue-research-park.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subsection">
+                        <img src="https://www.purdue.edu/uns/images/2024/boor-portraitLO.jpg" alt="Student Image" class="img-fluid">
+                        <h3 class="subsection-title accent">You may be breathing in more tiny nanoparticles from your gas stove than from car exhaust                        </h3>
+                        <p class="subsection-content">Cooking on your gas stove can emit more nano-sized particles into the air than vehicles that run on gas or diesel, possibly increasing your risk of developing asthma or other respiratory illnesses, a new Purdue University study has found.</p>
+                        <a href="https://www.purdue.edu/newsroom/releases/2024/Q1/you-may-be-breathing-in-more-tiny-nanoparticles-from-your-gas-stove-than-from-car-exhaust.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subsection">
+                        <img src="https://www.purdue.edu/uns/images/2021/hovde-winterLO.jpg" alt="Student Image" class="img-fluid">
+                        <h3 class="subsection-title accent">For third consecutive year, Purdue recognized as a top producer of Fulbright U.S. scholars; record-tying 8 faculty selected for 2023-24</h3>
+                        <p class="subsection-content">Purdue University, for the third consecutive year and fourth time in five years, is in elite company, ranking among U.S. universities with the highest number of faculty selected for the Fulbright U.S. Scholar Program.</p>
+                        <a href="https://www.purdue.edu/newsroom/releases/2024/Q1/for-third-consecutive-year-purdue-recognized-as-a-top-producer-of-fulbright-u.s-scholars-record-tying-8-faculty-selected-for-2023-24.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container py-4">
+        <p class="text-center">&copy; 2024 Purdue Pioneer, Inc.</p>
+    </footer>
+
+</body>
+
+</html>

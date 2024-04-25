@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historical Site: Elliott Hall · Purdue</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <style>
+    .navbar-custom {
+      background-color: #B08B00 !important; /* Custom yellow-700 color */
+    }
+
+    .bg-image {
+      position: relative;
+      text-shadow: 0 0 3px #000; /* Enhancing text visibility */
+    }
+
+    .bg-image::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5); /* Dark overlay for dim effect */
+    }
+
+    .bg-image .container {
+      position: relative; /* Ensure text appears above overlay */
+      z-index: 2;
+    }
+    .carousel-caption {
+  color: white; /* Explicitly setting text color */
+  z-index: 3; /* Ensuring the caption is above the ::before overlay */
+    }
+    .bg-image .container,
+.bg-image h1,
+.bg-image .carousel-caption {
+  position: relative;
+  z-index: 2;
+  color: white; /* Sets text color to white */
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Pioneer</a>
+        <img src="https://i.postimg.cc/3w1BzyzY/logo.png" alt="Purdue Pioneer Logo" style="height: 50px; vertical-align: middle; margin-right: 10px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSections" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Landmarks
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownSections">
+                <a class="dropdown-item" href="fountain.html">Fountain</a>
+                <a class="dropdown-item" href="hall.html">Hall</a>
+                <a class="dropdown-item" href="stadium.html">Stadium</a>
+                <a class="dropdown-item" href="slayter.html">Slayter</a>
+                <a class="dropdown-item" href="union.html">Union</a>
+                <a class="dropdown-item" href="tower.html">Tower</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="map.html">Map</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container marketing mt-5 pt-5">
+      <!-- Featurette header with background image and dimmed overlay -->
+      <div class="bg-image text-white d-flex flex-column justify-content-center align-items-center" style="background: url('https://upload.wikimedia.org/wikipedia/commons/c/cf/Hall_of_Music%2C_Purdue.JPG') no-repeat center center; background-size: cover; height: 400px;">
+        <h1 class="featurette-heading">Elliott Hall of Music</h1>
+      </div>
+
+      <!-- Additional Information Section -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Historical Overview</h2>
+          <p class="lead">Elliott Hall of Music, named after Edward C. Elliott, President of Purdue from 1922 to 1945, is one of the largest proscenium theaters in the world with a seating capacity of 6,005. The hall was designed by Walter Scholer, with J. Andre Fouilhoux as a consulting architect, and opened in 1940. It was originally called Purdue Hall of Music but was renamed in 1958 to honor Elliott. The hall's stage is comparable in size to that of the Dolby Theatre in Hollywood.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Cultural Hub</h2>
+          <p class="lead">As a key venue for Purdue Convocations, Elliott Hall of Music hosts a variety of events, including national Broadway tours, concerts by major musical artists like Bob Dylan and Lady Gaga, as well as performances by dance companies and orchestras. Notable personalities such as Robin Williams and Neil deGrasse Tyson have also graced its stage, making it a central cultural hub on campus.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Functional Design and Usage</h2>
+          <p class="lead">Connected to Purdue's administration building, Hovde Hall, by a walkway, Elliott Hall of Music utilizes this link for logistical advantages, particularly during commencement exercises and evening exams for large courses. This design was a strategic choice to save costs and space during its depression-era construction. Additionally, the building houses the offices of Purdue Convocations and Hall of Music Productions, which manages facility operations and event productions across campus.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container py-4">
+    <p class="text-center">&copy; 2024 Purdue Pioneer, Inc.</p>
+  </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>

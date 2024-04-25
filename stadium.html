@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historical Site: Ross-Ade Stadium · Purdue</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <style>
+    .navbar-custom {
+      background-color: #B08B00 !important; /* Custom yellow-700 color */
+    }
+
+    .bg-image {
+      position: relative;
+      text-shadow: 0 0 3px #000; /* Enhancing text visibility */
+    }
+
+    .bg-image::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5); /* Dark overlay for dim effect */
+    }
+
+    .bg-image .container {
+      position: relative; /* Ensure text appears above overlay */
+      z-index: 2;
+    }
+    .carousel-caption {
+  color: white; /* Explicitly setting text color */
+  z-index: 3; /* Ensuring the caption is above the ::before overlay */
+    }
+    .bg-image .container,
+.bg-image h1,
+.bg-image .carousel-caption {
+  position: relative;
+  z-index: 2;
+  color: white; /* Sets text color to white */
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Pioneer</a>
+        <img src="https://i.postimg.cc/3w1BzyzY/logo.png" alt="Purdue Pioneer Logo" style="height: 50px; vertical-align: middle; margin-right: 10px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSections" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Landmarks
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownSections">
+                <a class="dropdown-item" href="fountain.html">Fountain</a>
+                <a class="dropdown-item" href="hall.html">Hall</a>
+                <a class="dropdown-item" href="stadium.html">Stadium</a>
+                <a class="dropdown-item" href="slayter.html">Slayter</a>
+                <a class="dropdown-item" href="union.html">Union</a>
+                <a class="dropdown-item" href="tower.html">Tower</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="map.html">Map</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container marketing mt-5 pt-5">
+      <!-- Featurette header with background image and dimmed overlay -->
+      <div class="bg-image text-white d-flex flex-column justify-content-center align-items-center" style="background: url('https://upload.wikimedia.org/wikipedia/commons/7/7c/Ross-Ade_Stadium.jpg') no-repeat center center; background-size: cover; height: 400px;">
+        <h1 class="featurette-heading">Ross-Ade Stadium</h1>
+      </div>
+
+      <!-- Additional Information Section -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Historical Significance and Development</h2>
+          <p class="lead">Ross-Ade Stadium, located in West Lafayette, Indiana, has been the home of Purdue Boilermakers football since its opening in 1924. Named after alumni David E. Ross and George Ade, the benefactors who purchased the land and funded the construction, the stadium initially seated 13,500 people. Over the decades, various renovations have expanded its capacity, reaching nearly 68,000 at one point. A major $70 million renovation in 2001 modernized the facility and adjusted the seating capacity to 62,500.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Cultural and Event Highlights</h2>
+          <p class="lead">Ross-Ade Stadium is not just a venue for football; it has become a cultural landmark on Purdue's campus, hosting significant events and performances. Throughout its history, it has seen performances by icons like Bob Dylan and Lady Gaga and has been the stage for notable lecturers like Neil deGrasse Tyson. The stadium also plays a vital role in university traditions, notably the spring and winter commencement exercises.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Recent and Ongoing Renovations</h2>
+          <p class="lead">The early 2000s marked the beginning of a series of substantial renovations aimed at enhancing the stadium's facilities and fan experience. These upgrades included the addition of luxury suites, club seats, and a massive new press box. In 2022, a significant renovation added 4,500 seats, reconfigured the student section, and introduced modern amenities like safe standing seats and patio areas. These improvements ensure that Ross-Ade continues to meet the evolving needs of its fans and student-athletes, maintaining its reputation as a top-tier collegiate football venue.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container py-4">
+    <p class="text-center">&copy; 2024 Purdue Pioneer, Inc.</p>
+  </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>

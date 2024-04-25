@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historical Site: Memorial Union · Purdue</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <style>
+    .navbar-custom {
+      background-color: #B08B00 !important; /* Custom yellow-700 color */
+    }
+
+    .bg-image {
+      position: relative;
+      text-shadow: 0 0 3px #000; /* Enhancing text visibility */
+    }
+
+    .bg-image::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5); /* Dark overlay for dim effect */
+    }
+
+    .bg-image .container {
+      position: relative; /* Ensure text appears above overlay */
+      z-index: 2;
+    }
+    .carousel-caption {
+  color: white; /* Explicitly setting text color */
+  z-index: 3; /* Ensuring the caption is above the ::before overlay */
+    }
+    .bg-image .container,
+.bg-image h1,
+.bg-image .carousel-caption {
+  position: relative;
+  z-index: 2;
+  color: white; /* Sets text color to white */
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Pioneer</a>
+        <img src="https://i.postimg.cc/3w1BzyzY/logo.png" alt="Purdue Pioneer Logo" style="height: 50px; vertical-align: middle; margin-right: 10px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSections" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Landmarks
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownSections">
+                <a class="dropdown-item" href="fountain.html">Fountain</a>
+                <a class="dropdown-item" href="hall.html">Hall</a>
+                <a class="dropdown-item" href="stadium.html">Stadium</a>
+                <a class="dropdown-item" href="slayter.html">Slayter</a>
+                <a class="dropdown-item" href="union.html">Union</a>
+                <a class="dropdown-item" href="tower.html">Tower</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="map.html">Map</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container marketing mt-5 pt-5">
+      <!-- Featurette header with background image and dimmed overlay -->
+      <div class="bg-image text-white d-flex flex-column justify-content-center align-items-center" style="background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Purdue_Student_Union.JPG/1200px-Purdue_Student_Union.JPG') no-repeat center center; background-size: cover; height: 400px;">
+        <h1 class="featurette-heading">Memorial Union</h1>
+      </div>
+
+      <!-- Additional Information Section -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Historical Significance</h2>
+          <p class="lead">The Purdue Memorial Union was inaugurated in 1924 as a tribute to Purdue students who participated and lost their lives in World War I. The building's funding began with the Class of 1912 and was further fueled by the war's impact on the Purdue community. Originally conceived as a student union, it was designed to serve as a central gathering place for students, staff, and visitors, enhancing community interaction and memorializing fallen soldiers.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Facilities and Features</h2>
+          <p class="lead">The PMU is a comprehensive facility that encompasses several restaurants, lounges, and student organization offices. Additionally, it houses unique amenities such as a bowling alley and a full-service hotel, which were added over the years to increase its utility for the Purdue community. The Union's architecture and facilities have been developed to support a wide range of social, recreational, and administrative activities, making it a central hub on campus.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Cultural and Commemorative Hub</h2>
+          <p class="lead">Over the years, the Purdue Memorial Union has evolved to become more than just a student union; it stands as a cultural and commemorative hub. The Great Hall, located on the main floor, serves as a memorial space honoring Purdue alumni involved in various military conflicts. The Union also supports vibrant student life through the Purdue Student Union Board (PSUB), which organizes programs and events for the university community, highlighting its role as a dynamic center for student engagement and community building.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container py-4">
+    <p class="text-center">&copy; 2024 Purdue Pioneer, Inc.</p>
+  </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>

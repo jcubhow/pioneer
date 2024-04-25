@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historical Site: Bell Tower · Purdue</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <style>
+    .navbar-custom {
+      background-color: #B08B00 !important; /* Custom yellow-700 color */
+    }
+
+    .bg-image {
+      position: relative;
+      text-shadow: 0 0 3px #000; /* Enhancing text visibility */
+    }
+
+    .bg-image::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5); /* Dark overlay for dim effect */
+    }
+
+    .bg-image .container {
+      position: relative; /* Ensure text appears above overlay */
+      z-index: 2;
+    }
+    .carousel-caption {
+  color: white; /* Explicitly setting text color */
+  z-index: 3; /* Ensuring the caption is above the ::before overlay */
+    }
+    .bg-image .container,
+.bg-image h1,
+.bg-image .carousel-caption {
+  position: relative;
+  z-index: 2;
+  color: white; /* Sets text color to white */
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Pioneer</a>
+        <img src="https://i.postimg.cc/3w1BzyzY/logo.png" alt="Purdue Pioneer Logo" style="height: 50px; vertical-align: middle; margin-right: 10px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSections" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Landmarks
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownSections">
+                <a class="dropdown-item" href="fountain.html">Fountain</a>
+                <a class="dropdown-item" href="hall.html">Hall</a>
+                <a class="dropdown-item" href="stadium.html">Stadium</a>
+                <a class="dropdown-item" href="slayter.html">Slayter</a>
+                <a class="dropdown-item" href="union.html">Union</a>
+                <a class="dropdown-item" href="tower.html">Tower</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="map.html">Map</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container marketing mt-5 pt-5">
+      <!-- Featurette header with background image and dimmed overlay -->
+      <div class="bg-image text-white d-flex flex-column justify-content-center align-items-center" style="background: url('https://www.purdue.edu/uns/images/2015/pt-bell-tower-lights.jpg') no-repeat center center; background-size: cover; height: 400px;">
+        <h1 class="featurette-heading">Bell Tower</h1>
+      </div>
+
+      <!-- Additional Information Section -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Historical Inspiration and Construction</h2>
+          <p class="lead">The Purdue Bell Tower, standing at 160 feet, was completed in 1995, inspired by the original bell tower of Heavilon Hall, which was part of Purdue's campus until its demolition in 1956. The original Heavilon Hall, known for its resilience after being rebuilt "one brick higher" following a devastating fire in 1894, had a bell tower that was famously reconstructed nine bricks higher as a symbol of Purdue's spirit. This sentiment carries over to the new Bell Tower, which also features a clock on each of its four faces and houses the bells from the original tower.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Features and Daily Traditions</h2>
+          <p class="lead">The Bell Tower not only houses the historic bells but also plays a key role in daily campus life. It rings at every hour and half-hour, and at the end of classes, with electric clappers striking the original bells. Additionally, a computerized carillon system plays Purdue's fight songs and alma mater at designated times throughout the day. Below the tower is a time capsule, set to be opened in 2095, adding a layer of anticipation for future generations.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Cultural Significance and Lore</h2>
+          <p class="lead">Beyond its auditory functions, the Purdue Bell Tower is steeped in campus folklore. A legend suggests that the seal beneath the tower is cursed, and students who walk over it will not graduate in four years. Another popular myth holds that couples who kiss under the tower and then walk past the nearby Stone Lion Fountain will eventually marry. These traditions highlight the tower’s role not just as a structural landmark, but as a central part of Purdue's cultural and social fabric.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container py-4">
+    <p class="text-center">&copy; 2024 Purdue Pioneer, Inc.</p>
+  </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>
